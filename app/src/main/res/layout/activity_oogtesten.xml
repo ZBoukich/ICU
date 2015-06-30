@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+
+        <Button android:id="@+id/letters"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#CC0000"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/Letters"
+            android:onClick="startOogtest"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button android:id="@+id/symbolen"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#33CC33"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/Symbolen"
+            android:onClick="startOogtest"/>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <Button android:id="@+id/kinderversie"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fffffc19"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:text="@string/Kinderversie"
+            android:onClick="startOogtest"/>
+    </LinearLayout>
+</LinearLayout>
